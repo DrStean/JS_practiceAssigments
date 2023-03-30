@@ -8,7 +8,7 @@ minus the country's population)
 130. See the different results, and set the population back to original
 */
 
-let population = 130000000;
+let population = 6000000;
 let messageOne = "Portugal's population is above average";
 let messageTwo = "Portugal's population is 22 million below average";
 
