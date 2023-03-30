@@ -17,16 +17,16 @@ m tall.
 */
 
 
-let marksWeight = 113.4;
+let marksWeight = 95;
 console.log(`Mark's Weight is ${marksWeight} Kilograms`);
 
-let marksHeight = 1.71;
+let marksHeight = 1.88;
 console.log(`Mark's Height is ${marksHeight} meters`);
 
-let johnsWeight = 100.5;
+let johnsWeight = 85;
 console.log(`John's Weight is ${johnsWeight} Kilograms`);
 
-let johnsHeight = 1.9;
+let johnsHeight = 1.76;
 console.log(`John's Height is ${johnsHeight} meters\n \n`);
 
 let marksBMI = (marksWeight / (marksHeight * marksHeight));
@@ -38,7 +38,7 @@ console.log(`The John's BMI is ${johnsBMI}\n`);
 let markHigherBMI = (marksBMI > johnsBMI);
 console.log(markHigherBMI);
 
-if (markHigherBMI = true) {
+if (markHigherBMI == true) {
     console.log(`Mark's BMI ${marksBMI} is higher than John's BMI ${johnsBMI}`)
 } else {
     console.log(`John's BMI ${johnsBMI} is higher than Mark's BMI ${marksBMI}`)
